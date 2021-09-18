@@ -44,10 +44,19 @@ void loop()
       buttonState = reading;
 
       if (buttonState == LOW) {
-        changeColor();
+        // changeColor();
+        color++;
+        if (color == 8) color = 0;
+              
+        for (uint8_t i = 0; i < LED_COUNT; i++)
+        {
+          dots[i] = colors[color];
+        }
       }
     }
   }
+
+  lastButtonState = reading;
 
   state();
 }
