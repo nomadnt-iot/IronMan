@@ -16,6 +16,7 @@
 - [Neo Pixel Ring](https://www.adafruit.com/product/1643)
 - [Lipo Battery 3.7v](https://www.adafruit.com/product/258)
 - [Battery Charger]()
+- [Switch]()
 - [Button]()
 
 # Hardware setup
