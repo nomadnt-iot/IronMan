@@ -3,6 +3,7 @@
 - [Hardware setup](#hardware-setup)
 - [Build or edit firmware](#build-or-edit-firmware)
 - [How does it work?](#how-does-it-work)
+  - [Project tree](#project-tree)
 
 # Preface
 
@@ -36,3 +37,26 @@ Just open the project with [Platform IO](https://docs.platformio.org/en/latest/)
 # How does it work?
 
 The project is making use of the famouse [FastLED](https://github.com/FastLED/FastLED/wiki/Basic-usage) library to managing the Neo Pixel ring. The only present effect for now is the `hartbeat` and is built with no-blocking in mind. This because the device has a button to control the colors of the ring.
+
+## Project tree
+
+```
+.
+├── extras
+│   ├── pcb-full.jpg
+│   ├── pcb-side-1.jpg
+│   ├── pcb-side-2.jpg
+│   ├── sketch.jpg
+│   └── sketch-mirrored.jpg
+├── include
+│   ├── IronMan.h
+│   └── README
+├── lib
+│   └── README
+├── platformio.ini
+├── README.md
+├── src
+│   └── IronMan.cpp
+└── test
+    └── README
+```
