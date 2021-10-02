@@ -4,6 +4,7 @@
 - [Build or edit firmware](#build-or-edit-firmware)
 - [How does it work?](#how-does-it-work)
   - [Project tree](#project-tree)
+- [TODO](#todo)
 
 # Preface
 
@@ -61,3 +62,9 @@ The project is making use of the famouse [FastLED](https://github.com/FastLED/Fa
 └── test
     └── README
 ```
+
+# TODO
+
+- Kicad files
+- Improve readme
+- improve images
